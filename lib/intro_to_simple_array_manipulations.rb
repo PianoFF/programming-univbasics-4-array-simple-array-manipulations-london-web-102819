@@ -15,4 +15,5 @@ def pop_with_args (array) #uses the pop method with an argument of 2 to remove t
 end
   
 def using_shift (array) #removes the 1st item 
-  array .
+  array .shift
+end
