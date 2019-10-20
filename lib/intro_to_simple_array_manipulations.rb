@@ -28,5 +28,5 @@ def using_concat (arr1, arr2) #.concat = add the contents of the second array to
 end
 
 def using_insert (array, insert_item)
-  array[4].insert (isert_item)
+  array .insert(4, insert_item)
 end
