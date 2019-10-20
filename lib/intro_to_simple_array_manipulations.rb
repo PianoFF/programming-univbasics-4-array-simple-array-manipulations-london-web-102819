@@ -43,7 +43,8 @@ def using_delete (array, string) #.delete method _remove any items from the arra
   array.delete(string)
 end
 
-def using_delete_at (array, int) #.delete_at method with indexing _ deletes element at the specified index
-  
+def using_delete_at (array, int) #.delete_at(index) method with indexing _ deletes element at the specified index
+  array .delete_at(int)
+end
 
 
