@@ -39,8 +39,9 @@ def using_flatten (array) #.flatten method _ return an array (that contains othe
   array .flatten
 end
 
-
-
+def using_delete (array, string) #.delete method _remove any items from the array that are equal to that string
+  array.delete(string)
+end
 
 
 
