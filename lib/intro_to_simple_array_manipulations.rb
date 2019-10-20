@@ -10,6 +10,7 @@ def using_pop (array)
   array .pop
 end
 
-def pop_with_args (array, arg1, arg2) #uses the pop method with an argument of 2 to remove the last two array items 
-  
+def pop_with_args (array) #uses the pop method with an argument of 2 to remove the last two array items 
+  array .pop(2)
+end
   
