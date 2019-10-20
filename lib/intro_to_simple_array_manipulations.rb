@@ -23,4 +23,5 @@ def shift_with_args (array) #removes the first 2 items of the array
 end
 
 def using_concat (arr1, arr2)
-  
+  array .new(arr1 + arr2)
+end
