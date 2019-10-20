@@ -30,3 +30,7 @@ end
 def using_insert (array, insert_item)
   array .insert(4, insert_item)
 end
+
+def using_uniq (array) #.uniq method _ remove any duplicate items
+  array .uniq
+end
