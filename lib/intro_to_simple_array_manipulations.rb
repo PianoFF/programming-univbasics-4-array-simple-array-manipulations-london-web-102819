@@ -34,3 +34,13 @@ end
 def using_uniq (array) #.uniq method _ remove any duplicate items
   array .uniq
 end
+
+def using_flatten (array) #.flatten method _ return an array (that contains other arrays)of strings 
+  array .flatten
+end
+
+
+
+
+
+
